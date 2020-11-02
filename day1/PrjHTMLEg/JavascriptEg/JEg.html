@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style>
+		#o,#num,#str{
+			color:blue;
+		}
+	</style>
+	
+
+</head>
+<body>
+	<p id="str"></p> <br />
+	<p id="num"></p> <br />
+	<p id="o"></p> <br />
+	<script>
+		alert("hello world");
+		var firstname = "Bhagya"; //string
+		var age = 22; //number
+		var obj = { fname: "vivek", lname: "kathula" } //object
+		document.getElementById("str").innerHTML = firstname;
+		document.getElementById("num").innerHTML = age;
+		document.getElementById("o").innerHTML = obj.fname + " " + obj.lname;
+
+	</script>
+
+</body>
+</html>

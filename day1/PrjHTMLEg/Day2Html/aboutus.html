@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link href="CSS/AplicationLayout.css" rel="stylesheet" />
+	<style>
+		header {
+			background-color: cyan;
+			text-align: center;
+			font-size: 30px;
+			margin-top: 0px;
+			padding: 20px;
+		}
+
+		footer {
+			background-color: azure;
+			font-size: 20px;
+			margin-top: 0px;
+		}
+
+		nav {
+			background-color: darksalmon;
+			overflow: hidden;
+		}
+
+			nav li {
+				list-style-type: none;
+				padding: 0px;
+			}
+
+				nav li a {
+					float: left;
+					padding-left: 15px;
+				}
+
+			nav ul li ul {
+				display: block;
+				position: absolute;
+			}
+
+				nav ul li ul li a {
+					display: block;
+					position: absolute;
+				}
+
+		a:hover {
+			background-color: darkgrey;
+			color: black;
+			text-decoration: dotted;
+		}
+
+		.backgroundimage {
+			background-image: url(images/Backgroungimage.jpg);
+			height: 500px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+		}
+	</style>
+
+
+</head>
+<body>
+	<header>
+		<h1>LTI Bank</h1>
+
+	</header>
+	<nav>
+		<ul>
+			<li><a href="Banking.html"> Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="aboutus.html">AboutUs</a></li>
+			<li><a href="BankLogin.html" style="float:right">Login</a></li>
+			<li>
+				<a href="#">Personal Banking</a>
+				<!--<ul>
+					<li><a href="#">Saving & Deposits</a></li>
+					<li><a href="#">Mutual Funds</a></li>
+					<li><a href="#">Insurance</a></li>
+					<li><a href="#">Loan Products</a></li>
+				</ul>-->
+			</li>
+			<li><a href="#">Corporate Banking</a></li>
+			<li><a href="#">Net Banking</a></li>
+		</ul>
+
+	</nav>
+
+
+	<h>
+		Our Principles
+	</h>
+	<p>
+		<ul>
+			<li>To remove Superstition and ignorance.</li>
+			<li>To work with sense of service and dedication.</li>
+			<li>
+				To develop a concern for fellow human being
+				and sensitivity to the surroundings with a view to make changes/remove hardships and sufferings.
+			</li>
+			<li>To inculcate the habit of thrift and savings.</li>
+		</ul>
+
+
+	</p>
+	<p class="backgroundimage">
+	</p>
+
+	<footer>
+		Disclaimer
+		Regulations
+		RTI Act
+	</footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+	<style type="text/css">
+		img {
+			position: relative; /*required to move element*/
+		}
+	</style>
+	<script>
+		$(document).ready(function () { //default function
+			$("button").click(function () { //click function for button
+				$("img").animate({ // hide is inbuilt method in jquery.
+						left: 300
+			    });
+			});
+		});
+	</script>
+</head>
+<body>
+	<button type="button">Start animation</button>
+	<p>
+		<img src="images/shinchan.jpg" alt="shinchan";
+
+	</p>
+
+</body>
+</html>

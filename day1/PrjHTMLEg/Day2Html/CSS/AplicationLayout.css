@@ -1,0 +1,50 @@
+﻿body {
+	
+}
+
+header, footer {
+	background-color: lightblue;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 0px;
+	padding: 30px;
+}
+
+nav {
+	background-color: antiquewhite;
+	overflow: hidden;
+}
+
+	nav li {
+		list-style-type: none;
+		padding: 0px;
+	}
+
+		nav li a {
+			float: left;
+			padding-left: 15px;
+		}
+
+a:hover {
+	background-color: darkgrey;
+	color: black;
+	text-decoration: dotted;
+}
+section{
+	margin:0px;
+	padding:10px;
+	background-color:thistle;
+}
+article{
+	background-color:seashell;
+	text-align:justify;
+	font-size:20px;
+	margin-top:5px;
+	padding:10px;
+
+
+}
+img{
+	height:250px;
+	width:250px;
+}
